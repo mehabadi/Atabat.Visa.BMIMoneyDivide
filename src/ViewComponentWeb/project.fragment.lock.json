@@ -1,0 +1,146 @@
+{
+  "version": 2,
+  "exports": {
+    "ViewComponentLibrary/1.0.0": {
+      "type": "project",
+      "framework": ".NETFramework,Version=v4.5.2",
+      "compile": {
+        "bin/ViewComponentLibrary.dll": {}
+      },
+      "runtime": {
+        "../packages/Microsoft.ApplicationInsights.1.2.3/lib/net45/Microsoft.ApplicationInsights.dll": {},
+        "../packages/Microsoft.ApplicationInsights.Agent.Intercept.1.2.0/lib/net45/Microsoft.AI.Agent.Intercept.dll": {},
+        "../packages/Microsoft.ApplicationInsights.DependencyCollector.1.2.3/lib/net45/Microsoft.AI.DependencyCollector.dll": {},
+        "../packages/Microsoft.ApplicationInsights.PerfCounterCollector.1.2.3/lib/net45/Microsoft.AI.PerfCounterCollector.dll": {},
+        "../packages/Microsoft.ApplicationInsights.Web.1.2.3/lib/net45/Microsoft.AI.Web.dll": {},
+        "../packages/Microsoft.ApplicationInsights.WindowsServer.1.2.3/lib/net45/Microsoft.AI.WindowsServer.dll": {},
+        "../packages/Microsoft.ApplicationInsights.WindowsServer.TelemetryChannel.1.2.3/lib/net45/Microsoft.AI.ServerTelemetryChannel.dll": {},
+        "../packages/Microsoft.AspNetCore.Antiforgery.1.1.0/lib/net451/Microsoft.AspNetCore.Antiforgery.dll": {},
+        "../packages/Microsoft.AspNetCore.Authorization.1.1.0/lib/net451/Microsoft.AspNetCore.Authorization.dll": {},
+        "../packages/Microsoft.AspNetCore.Cryptography.Internal.1.1.0/lib/net451/Microsoft.AspNetCore.Cryptography.Internal.dll": {},
+        "../packages/Microsoft.AspNetCore.DataProtection.1.1.0/lib/net451/Microsoft.AspNetCore.DataProtection.dll": {},
+        "../packages/Microsoft.AspNetCore.DataProtection.Abstractions.1.1.0/lib/net451/Microsoft.AspNetCore.DataProtection.Abstractions.dll": {},
+        "../packages/Microsoft.AspNetCore.Diagnostics.Abstractions.1.1.0/lib/netstandard1.0/Microsoft.AspNetCore.Diagnostics.Abstractions.dll": {},
+        "../packages/Microsoft.AspNetCore.Hosting.Abstractions.1.1.0/lib/net451/Microsoft.AspNetCore.Hosting.Abstractions.dll": {},
+        "../packages/Microsoft.AspNetCore.Hosting.Server.Abstractions.1.1.0/lib/net451/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll": {},
+        "../packages/Microsoft.AspNetCore.Html.Abstractions.1.1.0/lib/netstandard1.0/Microsoft.AspNetCore.Html.Abstractions.dll": {},
+        "../packages/Microsoft.AspNetCore.Http.1.1.0/lib/net451/Microsoft.AspNetCore.Http.dll": {},
+        "../packages/Microsoft.AspNetCore.Http.Abstractions.1.1.0/lib/net451/Microsoft.AspNetCore.Http.Abstractions.dll": {},
+        "../packages/Microsoft.AspNetCore.Http.Extensions.1.1.0/lib/net451/Microsoft.AspNetCore.Http.Extensions.dll": {},
+        "../packages/Microsoft.AspNetCore.Http.Features.1.1.0/lib/net451/Microsoft.AspNetCore.Http.Features.dll": {},
+        "../packages/Microsoft.AspNetCore.JsonPatch.1.1.0/lib/net451/Microsoft.AspNetCore.JsonPatch.dll": {},
+        "../packages/Microsoft.AspNetCore.Mvc.Abstractions.1.1.0/lib/net451/Microsoft.AspNetCore.Mvc.Abstractions.dll": {},
+        "../packages/Microsoft.AspNetCore.Mvc.Core.1.1.0/lib/net451/Microsoft.AspNetCore.Mvc.Core.dll": {},
+        "../packages/Microsoft.AspNetCore.Mvc.DataAnnotations.1.1.0/lib/net451/Microsoft.AspNetCore.Mvc.DataAnnotations.dll": {},
+        "../packages/Microsoft.AspNetCore.Mvc.Formatters.Json.1.1.0/lib/net451/Microsoft.AspNetCore.Mvc.Formatters.Json.dll": {},
+        "../packages/Microsoft.AspNetCore.Mvc.ViewFeatures.1.1.0/lib/net451/Microsoft.AspNetCore.Mvc.ViewFeatures.dll": {},
+        "../packages/Microsoft.AspNetCore.ResponseCaching.Abstractions.1.1.0/lib/net451/Microsoft.AspNetCore.ResponseCaching.Abstractions.dll": {},
+        "../packages/Microsoft.AspNetCore.Routing.1.1.0/lib/net451/Microsoft.AspNetCore.Routing.dll": {},
+        "../packages/Microsoft.AspNetCore.Routing.Abstractions.1.1.0/lib/net451/Microsoft.AspNetCore.Routing.Abstractions.dll": {},
+        "../packages/Microsoft.AspNetCore.WebUtilities.1.1.0/lib/net451/Microsoft.AspNetCore.WebUtilities.dll": {},
+        "../packages/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.1.0.0/lib/net45/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll": {},
+        "../packages/Microsoft.DotNet.PlatformAbstractions.1.1.0/lib/net451/Microsoft.DotNet.PlatformAbstractions.dll": {},
+        "../packages/Microsoft.Extensions.Configuration.Abstractions.1.1.0/lib/netstandard1.0/Microsoft.Extensions.Configuration.Abstractions.dll": {},
+        "../packages/Microsoft.Extensions.DependencyInjection.Abstractions.1.1.0/lib/netstandard1.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {},
+        "../packages/Microsoft.Extensions.DependencyModel.1.1.0/lib/net451/Microsoft.Extensions.DependencyModel.dll": {},
+        "../packages/Microsoft.Extensions.FileProviders.Abstractions.1.1.0/lib/netstandard1.0/Microsoft.Extensions.FileProviders.Abstractions.dll": {},
+        "../packages/Microsoft.Extensions.Localization.1.1.0/lib/net451/Microsoft.Extensions.Localization.dll": {},
+        "../packages/Microsoft.Extensions.Localization.Abstractions.1.1.0/lib/netstandard1.0/Microsoft.Extensions.Localization.Abstractions.dll": {},
+        "../packages/Microsoft.Extensions.Logging.Abstractions.1.1.0/lib/netstandard1.1/Microsoft.Extensions.Logging.Abstractions.dll": {},
+        "../packages/Microsoft.Extensions.ObjectPool.1.1.0/lib/net451/Microsoft.Extensions.ObjectPool.dll": {},
+        "../packages/Microsoft.Extensions.Options.1.1.0/lib/netstandard1.0/Microsoft.Extensions.Options.dll": {},
+        "../packages/Microsoft.Extensions.PlatformAbstractions.1.1.0/lib/net451/Microsoft.Extensions.PlatformAbstractions.dll": {},
+        "../packages/Microsoft.Extensions.Primitives.1.1.0/lib/netstandard1.0/Microsoft.Extensions.Primitives.dll": {},
+        "../packages/Microsoft.Extensions.WebEncoders.1.1.0/lib/netstandard1.0/Microsoft.Extensions.WebEncoders.dll": {},
+        "../packages/Microsoft.Net.Http.Headers.1.1.0/lib/netstandard1.1/Microsoft.Net.Http.Headers.dll": {},
+        "../packages/Newtonsoft.Json.9.0.1/lib/net45/Newtonsoft.Json.dll": {},
+        "../packages/System.Buffers.4.3.0/lib/netstandard1.1/System.Buffers.dll": {},
+        "../packages/System.Diagnostics.DiagnosticSource.4.3.0/lib/portable-net45+win8+wpa81/System.Diagnostics.DiagnosticSource.dll": {},
+        "../packages/System.Runtime.CompilerServices.Unsafe.4.3.0/lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll": {},
+        "../packages/System.Runtime.InteropServices.RuntimeInformation.4.3.0/lib/net45/System.Runtime.InteropServices.RuntimeInformation.dll": {},
+        "../packages/System.Text.Encodings.Web.4.3.0/lib/netstandard1.0/System.Text.Encodings.Web.dll": {},
+        "bin/ViewComponentLibrary.dll": {}
+      },
+      "contentFiles": {
+        "bin/applicationinsights.config": {
+          "buildAction": "Content",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "applicationinsights.config"
+        },
+        "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/csc.exe": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/csc.exe"
+        },
+        "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/microsoft.build.tasks.codeanalysis.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/microsoft.build.tasks.codeanalysis.dll"
+        },
+        "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/microsoft.codeanalysis.csharp.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/microsoft.codeanalysis.csharp.dll"
+        },
+        "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/microsoft.codeanalysis.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/microsoft.codeanalysis.dll"
+        },
+        "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/microsoft.codeanalysis.visualbasic.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/microsoft.codeanalysis.visualbasic.dll"
+        },
+        "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/microsoft.csharp.core.targets": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/microsoft.csharp.core.targets"
+        },
+        "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/microsoft.visualbasic.core.targets": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/microsoft.visualbasic.core.targets"
+        },
+        "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/system.collections.immutable.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/system.collections.immutable.dll"
+        },
+        "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/system.reflection.metadata.dll": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/system.reflection.metadata.dll"
+        },
+        "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/vbc.exe": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/vbc.exe"
+        },
+        "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/vbcscompiler.exe": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/vbcscompiler.exe"
+        },
+        "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/vbcscompiler.exe.config": {
+          "buildAction": "None",
+          "codeLanguage": "any",
+          "copyToOutput": true,
+          "outputPath": "e:/source/learning/mvc6/viewcomponentweb/packages/microsoft.net.compilers.1.0.0/build/../tools/vbcscompiler.exe.config"
+        }
+      }
+    }
+  }
+}

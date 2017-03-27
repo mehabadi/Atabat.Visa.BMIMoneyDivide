@@ -1,0 +1,45 @@
+﻿@using Microsoft.ApplicationInsights.AspNetCore
+@using SoundBoard.Models;
+@model Message
+@{    
+    var x = new Message();
+    x.MessageTitle = "Test";
+}
+
+@Html.ValidationSummary()
+TEST
+<form id="editForm" asp-controller="message" asp-action="edit" asp-anti-forgery="true" method="post">
+    <input asp-for="Id" type="hidden" /><br />
+    <label asp-for="MessageTitle"></label><input asp-for="MessageTitle"/><br/>
+    <label asp-for="MessageContent"></label><input asp-for="MessageContent"/> <br/>
+    <input type="button" id="submitForm" value="Edit Message"/>
+</form>
+
+
+@section Scripts2{
+    <script>
+
+        jQuery(function($) {
+            var form = $("#editForm");
+            var button = "#submitForm";
+            var url = "http://localhost:22017/api/Edit";
+
+            $(button).click(function (e) {
+                alert(10);
+                var data = form.serialize();
+                e.preventDefault();
+                $.ajax({
+                    method: "POST",
+                    traditional: true,
+                    datatype: "json",
+                    url: url,
+                    data: data
+                })
+                .done(function (result) {
+                    console.log(result);
+                });
+            });
+
+        });
+    </script>
+}

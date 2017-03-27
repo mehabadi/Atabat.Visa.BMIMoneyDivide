@@ -1,0 +1,9 @@
+﻿@using Microsoft.EntityFrameworkCore.Metadata.Internal
+@model IEnumerable<Message>
+
+<ul>
+    @foreach (var message in Model)
+    {
+        <li><a asp-action="DisplayById" asp-controller="Messages" asp-route-id="@message.Id">@message.MessageTitle</a></li>
+    }
+</ul>
